@@ -12,8 +12,6 @@ public class Task4 {
         LocalDate currentDate = LocalDate.now();
         Period age = Period.between(birthDate, currentDate);
         System.out.println("Your age is: " + age.getYears() + " years, " + age.getMonths() + " months, and " + age.getDays() + " days.");
-
-
 		sc.close();
 	}
 
